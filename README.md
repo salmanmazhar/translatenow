@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About this app
+A translation app that allows users to query multiple sources.
 
 ## Available Scripts
 
