@@ -8,7 +8,8 @@ const search: any = (state: Array<any> = [{ searchQuery: 'Search Something' }], 
         case ACTIONS.SET_SEARCH_QUERY:
             return [
                 ...state,
-                { searchQuery: action.value }
+                { searchQuery: action.value,
+                results:[`this is mock result for ${action.value}`] }
             ]
         default:
         return state
