@@ -1,3 +1,2 @@
-import Paragraph from './paragraph';
-
-export default Paragraph;
+export * from './paragraph';
+export * from './textInput';
